@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../src/index.js"],"sourcesContent":["function hello(name = \"Lian\") {\n  return `Hello, ${name}`;\n}\n\nexport default hello;\n"],"names":[],"mappings":"eAAA,yFAAsB"}
