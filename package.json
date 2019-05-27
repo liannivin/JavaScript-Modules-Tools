@@ -12,7 +12,9 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
+    "@babel/preset-env": "^7.4.5",
     "another-module": "0.0.1",
+    "babel-jest": "^24.8.0",
     "jest": "^24.8.0",
     "microbundle": "^0.11.0"
   }
