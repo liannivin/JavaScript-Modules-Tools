@@ -8,7 +8,9 @@
   "source": "src/index.js",
   "scripts": {
     "test": "jest",
-    "build": "microbundle"
+    "build": "microbundle",
+    "prebuild": "npm test",
+    "prepublish": "npm run build"
   },
   "keywords": [],
   "author": "Lian Nivin <liamrn94@gmail.com> (https://nivin.dev)",
