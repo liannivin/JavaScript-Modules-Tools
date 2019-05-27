@@ -1,12 +1,19 @@
 {
-  "name": "my-module",
+  "name": "@liannivin/my-module",
   "version": "1.0.0",
-  "description": "",
+  "description": "My super cool module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "build": "microbundle"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Lian Nivin <liamrn94@gmail.com> (https://nivin.dev)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "another-module": "0.0.1",
+    "jest": "^24.8.0",
+    "microbundle": "^0.11.0"
+  }
 }
